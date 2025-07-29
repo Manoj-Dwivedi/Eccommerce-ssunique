@@ -1,0 +1,15 @@
+.ul{
+    background-color: white;
+    /* max-width: 500px;
+    min-width: 100%; */
+    width:280px;
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 1px 1px 4px 1px lightgray;
+    z-index: 999;
+}
+.anchor{
+    padding: 7px 3px;
+    display: block;
+}

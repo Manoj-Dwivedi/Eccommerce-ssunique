@@ -1,0 +1,95 @@
+*{
+    
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  /* font-weight:100; */
+  font-style:normal;
+}
+body{
+  background-color: #cfcfcf4f;
+}
+.menu-margin{
+  margin-top: 28px;
+}
+.ul_width{
+  margin: 0 auto;
+  width: 90%;
+  background-color: rgb(157, 194, 194);
+  position: absolute;
+  left: 0;
+  right: 0;
+  box-shadow: 1px 1px 4px 1px rgb(211, 206, 206);
+}
+.container-custom{
+    margin:0 auto;
+    width:90%;
+
+}
+.inline-fontweight{
+    display: inline-block;
+    font-weight:bold;
+    top: 4px;
+    left: -15px;
+}
+#menu{
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+#menu:hover{
+  background-color: rgb(53, 156, 78);
+  color: white;
+}
+/*************************  Nav bar  css  ********************************/
+.grid >li>a{
+  padding: 10px;
+  position: relative;
+}
+.grid >li>a::after{
+  content: '';
+  border-bottom: 2px solid green;
+  width: 100%;
+  position:absolute;
+  transform-origin:center;
+  transition: 0.5s;
+  transform: translateX(-50%) scale(0);
+  left: 50%;
+  bottom: 0;
+  
+}
+.grid >li>a:hover::after{
+  transform: translate(-50%) scale(1);
+}
+
+/**************** product drop down css  ******************/
+
+#dropdown>ul>li>a::after{
+  content: '';
+  border-bottom: 2px solid green;
+  width: 100%;
+  position:absolute;
+  transform-origin:center;
+  transition: 0.5s;
+  transform: translateX(-50%) scale(0);
+  left: 50%;
+  bottom: 0;
+   background-color: rgb(109, 117, 124);
+  
+}
+#dropdown>ul>li>a:hover::after{
+  transform: translate(-50%) scale(1);
+}
+
+/********************Slider Css **************************************************/
+.hot-cart{
+  text-align:-webkit-center;
+}
+.img{
+  width: 100%;
+  height:400px;
+}
+.hot_cart{
+  width: 95%;
+  height: 250px;
+  border-radius: 15px;
+}
