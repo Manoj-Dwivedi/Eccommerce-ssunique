@@ -1,17 +1,17 @@
 {
   "name": "ssuniqui",
+  "homepage": "https://Manoj-Dwivedi.github.io/Eccommerce-ssunique",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "postinstall": "flowbite-react patch"
-  },
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "lint": "eslint .",
+  "preview": "vite preview"
+},
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",
     "flowbite-react": "^0.11.9",
